@@ -32,3 +32,8 @@ git status
 git add .
 git commit -m "初始化 FreeRTOS"
 ```
+
+### 配置1ms定时器
+
+
+
