@@ -1,15 +1,4 @@
-#### 1.1 配置定时器中断
-- 启用TIM6
-- 根据手册判断主频
-- 将中断配置为100Hz
-- 启用中断
-
-![Proj1](./assets/pictures/Proj1.png)
-
-![Proj2](./assets/pictures/Proj2.png)
-
-
-#### 1.2 配置PWM输出
+#### 1.1 配置PWM输出
 - 找到TIM8
 - 将CH1配置为PWM输出
 - 将CH1引脚修改到PC6
@@ -20,7 +9,7 @@
 
 ![Proj4](./assets/pictures/Proj4.png)
 
-#### 1.3 配置Encoder Interface
+#### 1.2 配置Encoder Interface
 - 找到TIM1
 - Combined Channels 选择 `Encoder Mode`
 - Encoder Mode 选择 `Encoder Mode T1 and T2`
@@ -30,9 +19,7 @@
 
 ![Proj6](./assets/pictures/Proj6.png)
 
-#### 1.4 配置UART
-
-#### 1.5 配置GPIO输出
+#### 1.3 配置GPIO输出
 
 ![Proj10](./assets/pictures/Screenshot%202026-06-28%20144559.png)
 
