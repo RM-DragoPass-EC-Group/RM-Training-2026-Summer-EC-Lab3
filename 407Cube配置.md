@@ -1,4 +1,4 @@
-#### 5.1.1 配置定时器中断
+#### 1.1 配置定时器中断
 - 启用TIM6
 - 根据手册判断主频
 - 将中断配置为100Hz
@@ -9,7 +9,7 @@
 ![Proj2](./assets/pictures/Proj2.png)
 
 
-#### 5.1.1 配置PWM输出
+#### 1.2 配置PWM输出
 - 找到TIM8
 - 将CH1配置为PWM输出
 - 将CH1引脚修改到PC6
@@ -20,7 +20,7 @@
 
 ![Proj4](./assets/pictures/Proj4.png)
 
-#### 5.1.2 配置Encoder Interface
+#### 1.3 配置Encoder Interface
 - 找到TIM1
 - Combined Channels 选择 `Encoder Mode`
 - Encoder Mode 选择 `Encoder Mode T1 and T2`
@@ -30,21 +30,10 @@
 
 ![Proj6](./assets/pictures/Proj6.png)
 
-#### 5.1.3 配置UART
-- 找到USART1
-- 选择异步模式
-- 配置引脚
-- 打开中断
+#### 1.4 配置UART
 
-![Proj7](./assets/pictures/Proj7.png)
+#### 1.5 配置GPIO输出
 
-![Proj8](./assets/pictures/Proj8.png)
+![Proj10](./assets/pictures/Screenshot%202026-06-28%20144559.png)
 
-![Proj9](./assets/pictures/Proj9.png)
-#### 5.1.4 配置GPIO输出
-电机的驱动芯片采用TB6612，其真值图如下
-
-![Proj10](./assets/pictures/Proj10.png)
-
-因此我们需要两个GPIO来控制
 在此我们按照上一节课的方法，配置好 `PF0` `PF1`为OUTPUT
